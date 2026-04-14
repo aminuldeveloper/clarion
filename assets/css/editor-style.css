@@ -1,0 +1,73 @@
+/*
+ * Luminary Block Editor Styles
+ * Mirrors front-end typography so the editor looks like the live site.
+ *
+ * @package Clarion
+ */
+
+/* Editor body */
+body.block-editor-page {
+	font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+	font-size: 18px;
+	line-height: 1.8;
+	color: #2C2C2C;
+}
+
+/* Post title */
+.editor-post-title__input {
+	font-family: 'Playfair Display', Georgia, serif;
+	font-weight: 700;
+	color: #1A1A1A;
+	line-height: 1.25;
+}
+
+/* Block editor content */
+.wp-block {
+	max-width: 780px;
+}
+
+.wp-block[data-align="wide"] {
+	max-width: 1060px;
+}
+
+.wp-block[data-align="full"] {
+	max-width: 100%;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Playfair Display', Georgia, serif;
+	color: #1A1A1A;
+	line-height: 1.25;
+}
+
+/* Links */
+a {
+	color: #B8860B;
+	text-decoration-offset: 3px;
+}
+
+/* Blockquote */
+blockquote {
+	border-left: 4px solid #B8860B;
+	padding: 1rem 1.5rem;
+	background: #FAFAF8;
+	font-style: italic;
+	color: #666;
+}
+
+/* Code */
+code {
+	background: #F0EDE6;
+	padding: 2px 6px;
+	border-radius: 4px;
+	font-size: 0.9em;
+}
+
+pre {
+	background: #1e1e2e;
+	color: #cdd6f4;
+	padding: 1.5rem;
+	border-radius: 8px;
+	overflow-x: auto;
+}

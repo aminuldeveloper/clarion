@@ -1,0 +1,163 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"custom": true,
+			"customDuotone": false,
+			"customGradient": false,
+			"defaultDuotone": false,
+			"defaultGradients": false,
+			"defaultPalette": false,
+			"palette": [
+				{
+					"slug": "gold",
+					"color": "#B8860B",
+					"name": "Gold"
+				},
+				{
+					"slug": "gold-light",
+					"color": "#D4A017",
+					"name": "Gold Light"
+				},
+				{
+					"slug": "dark",
+					"color": "#1A1A1A",
+					"name": "Dark"
+				},
+				{
+					"slug": "body",
+					"color": "#2C2C2C",
+					"name": "Body Text"
+				},
+				{
+					"slug": "light",
+					"color": "#FAFAF8",
+					"name": "Light"
+				},
+				{
+					"slug": "white",
+					"color": "#FFFFFF",
+					"name": "White"
+				},
+				{
+					"slug": "muted",
+					"color": "#666666",
+					"name": "Muted"
+				},
+				{
+					"slug": "border",
+					"color": "#E8E4DC",
+					"name": "Border"
+				}
+			]
+		},
+		"typography": {
+			"customFontSize": true,
+			"fontFamilies": [
+				{
+					"fontFamily": "'Playfair Display', Georgia, 'Times New Roman', serif",
+					"name": "Playfair Display",
+					"slug": "playfair-display"
+				},
+				{
+					"fontFamily": "'Merriweather', Georgia, 'Times New Roman', serif",
+					"name": "Merriweather",
+					"slug": "merriweather"
+				},
+				{
+					"fontFamily": "system-ui, -apple-system, 'Segoe UI', sans-serif",
+					"name": "System Sans",
+					"slug": "system-sans"
+				}
+			],
+			"fontSizes": [
+				{
+					"slug": "small",
+					"size": "0.875rem",
+					"name": "Small"
+				},
+				{
+					"slug": "normal",
+					"size": "1rem",
+					"name": "Normal"
+				},
+				{
+					"slug": "medium",
+					"size": "1.125rem",
+					"name": "Medium"
+				},
+				{
+					"slug": "large",
+					"size": "1.5rem",
+					"name": "Large"
+				},
+				{
+					"slug": "x-large",
+					"size": "2.25rem",
+					"name": "X-Large"
+				},
+				{
+					"slug": "huge",
+					"size": "3rem",
+					"name": "Huge"
+				}
+			]
+		},
+		"spacing": {
+			"units": [ "px", "em", "rem", "%", "vw" ]
+		},
+		"layout": {
+			"contentSize": "780px",
+			"wideSize": "1200px"
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "#FAFAF8",
+			"text": "#2C2C2C"
+		},
+		"typography": {
+			"fontFamily": "'Merriweather', Georgia, 'Times New Roman', serif",
+			"fontSize": "1.125rem",
+			"lineHeight": "1.8"
+		},
+		"elements": {
+			"h1": {
+				"typography": {
+					"fontFamily": "'Playfair Display', Georgia, serif",
+					"fontWeight": "700"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontFamily": "'Playfair Display', Georgia, serif",
+					"fontWeight": "700"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontFamily": "'Playfair Display', Georgia, serif",
+					"fontWeight": "700"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontFamily": "'Playfair Display', Georgia, serif",
+					"fontWeight": "700"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "#B8860B"
+				},
+				":hover": {
+					"color": {
+						"text": "#8B6508"
+					}
+				}
+			}
+		}
+	}
+}

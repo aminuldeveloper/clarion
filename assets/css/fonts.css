@@ -1,0 +1,101 @@
+/*
+ * Self-hosted Google Fonts
+ * Playfair Display — OFL License: https://scripts.sil.org/OFL
+ * Merriweather — OFL License: https://scripts.sil.org/OFL
+ *
+ * Font files should be placed in:
+ *   assets/fonts/playfair-display/
+ *   assets/fonts/merriweather/
+ *
+ * Download from: https://fonts.google.com
+ */
+
+/* Playfair Display — Regular 400 */
+@font-face {
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'),
+	     url('../fonts/playfair-display/playfair-display-v37-latin-regular.woff2') format('woff2');
+}
+
+/* Playfair Display — Medium 500 */
+@font-face {
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: local('Playfair Display Medium'), local('PlayfairDisplay-Medium'),
+	     url('../fonts/playfair-display/playfair-display-v37-latin-500.woff2') format('woff2');
+}
+
+/* Playfair Display — SemiBold 600 */
+@font-face {
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: local('Playfair Display SemiBold'), local('PlayfairDisplay-SemiBold'),
+	     url('../fonts/playfair-display/playfair-display-v37-latin-600.woff2') format('woff2');
+}
+
+/* Playfair Display — Bold 700 */
+@font-face {
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: local('Playfair Display Bold'), local('PlayfairDisplay-Bold'),
+	     url('../fonts/playfair-display/playfair-display-v37-latin-700.woff2') format('woff2');
+}
+
+/* Playfair Display — Italic 400 */
+@font-face {
+	font-family: 'Playfair Display';
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src: local('Playfair Display Italic'), local('PlayfairDisplay-Italic'),
+	     url('../fonts/playfair-display/playfair-display-v37-latin-italic.woff2') format('woff2');
+}
+
+/* Merriweather — Regular 400 */
+@font-face {
+	font-family: 'Merriweather';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: local('Merriweather Regular'), local('Merriweather-Regular'),
+	     url('../fonts/merriweather/merriweather-v30-latin-regular.woff2') format('woff2');
+}
+
+/* Merriweather — Italic 400 */
+@font-face {
+	font-family: 'Merriweather';
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src: local('Merriweather Italic'), local('Merriweather-Italic'),
+	     url('../fonts/merriweather/merriweather-v30-latin-italic.woff2') format('woff2');
+}
+
+/* Merriweather — Bold 700 */
+@font-face {
+	font-family: 'Merriweather';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: local('Merriweather Bold'), local('Merriweather-Bold'),
+	     url('../fonts/merriweather/merriweather-v30-latin-700.woff2') format('woff2');
+}
+
+/* Merriweather — Bold Italic 700 */
+@font-face {
+	font-family: 'Merriweather';
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+	src: local('Merriweather Bold Italic'), local('Merriweather-BoldItalic'),
+	     url('../fonts/merriweather/merriweather-v30-latin-700italic.woff2') format('woff2');
+}
