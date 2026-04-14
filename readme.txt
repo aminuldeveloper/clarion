@@ -39,7 +39,7 @@ Key features include:
 3. Click Activate to use your new theme right away.
 
 Or install via FTP:
-1. Upload the `luminary` folder to the `/wp-content/themes/` directory.
+1. Upload the `clarion` folder to the `/wp-content/themes/` directory.
 2. Activate the theme through the 'Appearance > Themes' menu in WordPress.
 
 
@@ -47,7 +47,7 @@ Or install via FTP:
 
 = Does this theme support any page builders? =
 
-Luminary is designed to work beautifully with the WordPress block editor (Gutenberg). Other page builders may work but are not officially tested.
+Clarion is designed to work beautifully with the WordPress block editor (Gutenberg). Other page builders may work but are not officially tested.
 
 = How do I set up the logo? =
 
