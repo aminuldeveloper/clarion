@@ -1,8 +1,8 @@
 === Clarion ===
 Contributors: aminulislam
-Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, accessibility-ready, block-styles, wide-blocks
+Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks
 Requires at least: 6.0
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 7.4
 Stable tag: 1.0.4
 License: GNU General Public License v2 or later
@@ -80,6 +80,15 @@ Playfair Display and Merriweather font files (WOFF2 format) need to be downloade
 - assets/fonts/merriweather/
 
 See the fonts.css file for the expected file names.
+
+
+== License ==
+
+Clarion WordPress Theme, Copyright 2024 Aminul Islam
+Clarion is distributed under the terms of the GNU GPL
+
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 
 == Changelog ==
