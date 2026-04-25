@@ -127,8 +127,69 @@ function clarion_setup() {
 			'audio',
 		)
 	);
+
+	// Add support for custom header.
+	add_theme_support(
+		'custom-header',
+		array(
+			'default-image'      => '',
+			'width'              => 1600,
+			'height'             => 400,
+			'flex-height'        => true,
+			'flex-width'         => true,
+			'uploads'            => true,
+			'default-text-color' => '222222',
+		)
+	);
+
+	// Add support for custom background.
+	add_theme_support(
+		'custom-background',
+		array(
+			'default-color' => 'FAF9F7',
+			'default-image' => '',
+		)
+	);
 }
 add_action( 'after_setup_theme', 'clarion_setup' );
+
+/**
+ * Register block patterns.
+ */
+function clarion_register_block_patterns() {
+	register_block_pattern(
+		'clarion/hero-with-intro',
+		array(
+			'title'       => __( 'Hero with Intro Text', 'clarion' ),
+			'description' => __( 'A hero section with a heading and intro paragraph.', 'clarion' ),
+			'categories'  => array( 'featured' ),
+			'content'     => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}}} --><div class="wp-block-group alignfull"><!-- wp:heading {"level":1,"textAlign":"center"} --><h1 class="wp-block-heading has-text-align-center">' . esc_html__( 'Welcome to My Blog', 'clarion' ) . '</h1><!-- /wp:heading --><!-- wp:paragraph {"align":"center"} --><p class="has-text-align-center">' . esc_html__( 'Stories, ideas, and thoughts worth sharing.', 'clarion' ) . '</p><!-- /wp:paragraph --></div><!-- /wp:group -->',
+		)
+	);
+}
+add_action( 'init', 'clarion_register_block_patterns' );
+
+/**
+ * Register block styles.
+ */
+function clarion_register_block_styles() {
+	register_block_style(
+		'core/quote',
+		array(
+			'name'  => 'clarion-pull-quote',
+			'label' => __( 'Pull Quote', 'clarion' ),
+		)
+	);
+
+	register_block_style(
+		'core/button',
+		array(
+			'name'  => 'clarion-outline',
+			'label' => __( 'Outline', 'clarion' ),
+		)
+	);
+}
+add_action( 'init', 'clarion_register_block_styles' );
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.

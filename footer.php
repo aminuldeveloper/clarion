@@ -80,11 +80,10 @@
 						<?php
 						printf(
 							wp_kses(
-								/* translators: 1: theme name with link, 2: author name with link. */
-								__( 'Theme: %1$s by %2$s.', 'clarion' ),
+								/* translators: %s: author name with link. */
+								__( 'Theme: Clarion by %s.', 'clarion' ),
 								array( 'a' => array( 'href' => array() ) )
 							),
-							'<a href="' . esc_url( 'https://aminuldeveloper.com/clarion' ) . '">Clarion</a>',
 							'<a href="' . esc_url( 'https://aminuldeveloper.com' ) . '">Aminul Islam</a>'
 						);
 						?>
